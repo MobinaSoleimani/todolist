@@ -41,7 +41,7 @@ const Todolist = () => {
             <h1>Todo List</h1>
 
             <form onSubmit={submitHandler}>
-           <input type="text" placeholder="Write new stuff"  value={newName} onChange={(e) => setNewName(e.target.value)}/>
+           <input type="text" placeholder="Write your new work"  value={newName} onChange={(e) => setNewName(e.target.value)}/>
            <button type='submit' className={styles.add} onClick={addAll}><AddBoxIcon fontSize="large"/></button>
            </form>
 
