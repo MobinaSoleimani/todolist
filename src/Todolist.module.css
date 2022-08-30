@@ -1,0 +1,94 @@
+*{
+    margin: auto;  
+}
+.body{
+    text-align: center;    
+    background: #ffe259; 
+    background: -webkit-linear-gradient(to right, #ffa751, #ffe259); 
+    background: linear-gradient(to right, #ffa751, #ffe259); 
+    height: 100vh;
+}
+h1{
+    font-size:70px ;
+    padding: 90px 50px 170px 50px;
+    color: white;
+    font-weight: 800;
+    font-family: cursive;
+    text-shadow: 3px 2px #e5d8d8;
+}
+input{
+    padding: 15px 65px;
+    border: 3px solid white;
+    border-radius: 25px;
+    margin-right: 90px;
+    margin-bottom: 70px;
+}
+::placeholder { 
+    color:rgb(184, 122, 243);
+    font-weight: 500;
+}
+.main{
+    text-align: center;
+    padding: 19px;
+    background: #ffe259; 
+    background: -webkit-linear-gradient(to right, #ffa751, #ffe259); 
+    background: linear-gradient(to right, #ffa751, #ffe259);
+}
+.text{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.285);
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.64);
+}
+.trash{
+    color: red;
+    margin-left: 10px;
+}
+.done{
+    margin-left: 10px;
+    color:rgba(0, 128, 0, 0.81);
+}
+.add{
+    color: rgb(168, 39, 168);
+    position: relative;
+    top: 12px;
+    right: 140px;
+    padding: 0;
+    display: inline;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border: 0;
+}
+.form{
+    width: 270px;
+}
+form{
+    display: inline;
+}
+.tick{
+    opacity: 0.5;
+    text-decoration: line-through;
+    width: 50%;
+}
+input:focus {
+    outline: none;
+  }
+  input:focus::placeholder { 
+    color: rgba(128, 14, 98, 0.681);
+    font-size: 15px;
+  }
+  .trash:hover{
+    color: darkred;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.done:hover{
+    margin-left: 10px;
+    cursor: pointer;
+    color: darkgreen;
+}
+.add:hover{
+    color:darkmagenta; 
+    cursor: pointer;
+}
